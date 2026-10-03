@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "siteName": "AuraConvert",
+    "defaultTitle": "AuraConvert — İhtiyacın olan tüm araçlar. Tek bir yerde.",
+    "defaultDescription": "PDF, görsel, metin, video ve geliştirici araçlarını tek bir tutarlı arayüzde kullanın. AuraConvert, tarayıcı tabanlı çevrimiçi araçlar platformudur."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "tools": "Araçlar",
+    "themes": "Temalar",
+    "categories": "Kategoriler",
+    "searchPlaceholder": "Araç ara…",
+    "searchAria": "Araçları ara",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "collapseSidebar": "Kenar çubuğunu daralt",
+    "expandSidebar": "Kenar çubuğunu genişlet",
+    "language": "Dil",
+    "noResults": "Eşleşen araç bulunamadı."
+  },
+  "themes": {
+    "title": "Temalar",
+    "subtitle": "Arayüz tasarımını seçin. Sayfa renkleri anında değişir.",
+    "active": "Aktif",
+    "light": {
+      "name": "Aydınlık Mod",
+      "desc": "Temiz ve ferah beyaz"
+    },
+    "dark": {
+      "name": "Karanlık Mod",
+      "desc": "Klasik koyu gri"
+    },
+    "midnight": {
+      "name": "Gece Yarısı",
+      "desc": "Koyu lacivert ve mavi"
+    },
+    "amoled": {
+      "name": "AMOLED Siyah",
+      "desc": "Tam siyah arka plan"
+    },
+    "dim": {
+      "name": "Loş (Dim)",
+      "desc": "Göz yormayan soluk gri"
+    },
+    "stone": {
+      "name": "Taş (Stone)",
+      "desc": "Sıcak koyu tonlar"
+    },
+    "dracula": {
+      "name": "Dracula",
+      "desc": "Koyu mor ve pembe"
+    },
+    "nord": {
+      "name": "Nord",
+      "desc": "Soğuk kutup mavisi"
+    },
+    "ocean": {
+      "name": "Okyanus",
+      "desc": "Derin deniz mavisi"
+    },
+    "monochrome": {
+      "name": "Monokrom",
+      "desc": "Siyah ve beyazın uyumu"
+    }
+  },
+  "home": {
+    "eyebrow": "Çevrimiçi araçlar platformu",
+    "heroTitle": "İhtiyacın olan tüm araçlar. Tek bir yerde.",
+    "heroSubtitle": "PDF, görsel, metin, medya ve geliştirici araçlarını aynı tasarım sisteminde, tarayıcında çalıştır. Yeni araçlar platformu yeniden yazmadan eklenir.",
+    "searchPlaceholder": "PDF, karakter sayacı, görsel veya hız testi ara…",
+    "popular": "Popüler araçlar",
+    "categories": "Kategoriler",
+    "recent": "Yeni eklenenler",
+    "featured": "Öne çıkanlar",
+    "browseAll": "Tüm araçları gör",
+    "toolsCount": "{count} araç",
+    "emptyCategory": "Bu kategoride henüz araç yok."
+  },
+  "toolsPage": {
+    "title": "Tüm araçlar",
+    "subtitle": "Kayıtlı araçları kategoriye göre keşfedin. Yeni bir araç eklemek yalnızca kendi klasörünü ve kayıt satırını gerektirir.",
+    "empty": "Bu görünümde gösterilecek araç yok.",
+    "filterAll": "Tümü"
+  },
+  "tool": {
+    "clientSide": "Tarayıcıda çalışır",
+    "serverSide": "Sunucuda çalışır",
+    "notFoundTitle": "Araç bulunamadı",
+    "notFoundBody": "Bu adres için kayıtlı bir araç yok."
+  },
+  "characterCounter": {
+    "inputLabel": "Metin",
+    "placeholder": "Saymak istediğiniz metni buraya yazın…",
+    "characters": "Karakter",
+    "words": "Kelime",
+    "lines": "Satır",
+    "reset": "Sıfırla"
+  },
+  "ads": {
+    "label": "Reklam alanı",
+    "note": "Gerçek reklam ağı henüz bağlı değil."
+  },
+  "footer": {
+    "tagline": "Tüm araçlar, tek platform.",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "contact": "İletişim",
+    "about": "Hakkımızda"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Aradığınız sayfa taşınmış veya hiç var olmamış olabilir.",
+    "home": "Ana sayfaya dön"
+  },
+  "categories": {
+    "text": {
+      "name": "Metin",
+      "description": "Karakter sayacı, kodlama ve yazı araçları"
+    },
+    "pdf": {
+      "name": "PDF",
+      "description": "Sıkıştırma, birleştirme ve dönüştürme"
+    },
+    "image": {
+      "name": "Görsel",
+      "description": "Sıkıştırma, boyutlandırma ve biçim dönüşümü"
+    },
+    "video": {
+      "name": "Video",
+      "description": "Kırpma, dönüştürme ve medya yardımcıları"
+    },
+    "audio": {
+      "name": "Ses",
+      "description": "MP3 ve ses dosyası araçları"
+    },
+    "developer": {
+      "name": "Geliştirici",
+      "description": "JSON, kod ve yardımcı programlar"
+    },
+    "internet": {
+      "name": "İnternet",
+      "description": "Hız testi ve bağlantı araçları"
+    },
+    "files": {
+      "name": "Dosyalar",
+      "description": "Tarayıcıda güvenli dosya yardımcıları"
+    },
+    "games": {
+      "name": "Oyun",
+      "description": "Sunucu ve yapılandırma doğrulayıcıları"
+    },
+    "utility": {
+      "name": "Araçlar",
+      "description": "Gelişmiş şifreler oluşturun ve faydalı küçük araçları kullanın."
+    },
+    "math": {
+      "name": "Matematik & Hesaplama"
+    }
+  },
+  "tools": {
+    "character-counter": {
+      "name": "Karakter Sayacı",
+      "description": "Karakter, kelime ve satır sayısını anında hesaplayın."
+    },
+    "image-compressor": {
+      "name": "Görsel Sıkıştırıcı",
+      "description": "Görsellerinizin boyutunu kaliteden ödün vermeden tarayıcınızda küçültün."
+    },
+    "image-resizer": {
+      "name": "Görsel Boyutlandırıcı",
+      "description": "Genişlik ve yüksekliği ayarlayarak görselleri kırpın ve boyutlandırın."
+    },
+    "background-remover": {
+      "name": "Arka Plan Kaldırıcı",
+      "description": "Yapay zeka ile saniyeler içinde fotoğrafların arka planını silin."
+    },
+    "image-converter": {
+      "name": "Görsel Dönüştürücü",
+      "description": "Görsellerinizi JPG, PNG, WebP ve AVIF formatlarına dönüştürün."
+    },
+    "watermark-remover": {
+      "name": "Filigran Kaldırıcı",
+      "description": "Görsellerinizin üzerindeki istenmeyen yazıları, logoları veya objeleri silin."
+    },
+    "favicon-generator": {
+      "name": "Favicon Oluşturucu",
+      "description": "Görsellerinizi tüm modern cihazlarla uyumlu web sitesi faviconlarına (ICO ve PNG) dönüştürün."
+    },
+    "json-formatter": {
+      "name": "JSON Biçimlendirici",
+      "description": "JSON verilerinizi formatlayın, doğrulayın ve tarayıcınızda hatalarını ayıklayın."
+    },
+    "pdf-compressor": {
+      "name": "PDF Sıkıştırıcı",
+      "description": "PDF dosyalarınızın boyutunu küçültün. İşlem tarayıcınızda, dosyanız sunucuya yüklenmeden gerçekleşir."
+    },
+    "password-generator": {
+      "name": "Güçlü Şifre Oluşturucu",
+      "description": "Gelişmiş algoritmalarla güvenli, kırılması zor ve rastgele şifreler üretin.",
+      "length": "Şifre Uzunluğu",
+      "uppercase": "Büyük Harf (A-Z)",
+      "lowercase": "Küçük Harf (a-z)",
+      "numbers": "Rakam (0-9)",
+      "symbols": "Sembol (!@#$%)",
+      "generate": "Şifre Üret",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "errorNoOption": "Lütfen en az bir karakter türü seçin.",
+      "securityWarning": "Şifreleriniz tarayıcınızda yerel ve güvenli bir şekilde (Web Crypto API) üretilir. Sunucuya gönderilmez veya kaydedilmez."
+    },
+    "pdf-merger": {
+      "name": "PDF Birleştirici",
+      "description": "Birden fazla PDF dosyasını tek bir belgede birleştirin. Sıralamayı değiştirin ve %100 gizlilikle tarayıcınızda işlem yapın.",
+      "uploadOrDrag": "PDF yükle veya sürükle",
+      "uploadDescription": "En az 2 PDF dosyası (Maksimum 50MB/dosya)",
+      "selectedFiles": "Seçilen Dosyalar",
+      "clearAll": "Tümünü Temizle",
+      "mergePdfs": "PDF'leri Birleştir",
+      "processing": "PDF'ler Birleştiriliyor...",
+      "download": "İndir (.pdf)",
+      "errorMinFiles": "Birleştirme için en az 2 PDF dosyası seçmelisiniz.",
+      "errorInvalidFile": "Lütfen sadece geçerli PDF dosyaları yükleyin.",
+      "securityWarning": "Tüm işlemler yalnızca tarayıcınızda (istemci tarafında) gerçekleştirilir. Gizliliğiniz güvendedir, hiçbir dosya buluta yüklenmez veya kaydedilmez.",
+      "addMore": "Daha fazla PDF ekle"
+    },
+    "qr-code-generator": {
+      "name": "QR Kod Oluşturucu",
+      "description": "Metin veya URL girerek anında yüksek kaliteli QR kod oluşturun ve PNG veya SVG olarak indirin.",
+      "inputLabel": "QR İçeriği (URL veya Metin)",
+      "inputPlaceholder": "https://auraconvert.pro veya rastgele bir metin girin...",
+      "sizeLabel": "QR Boyutu",
+      "levelLabel": "Hata Düzeltme Seviyesi",
+      "levelL": "Düşük (L - %7)",
+      "levelM": "Orta (M - %15)",
+      "levelQ": "Yüksek (Q - %25)",
+      "levelH": "En Yüksek (H - %30)",
+      "downloadPng": "PNG İndir",
+      "downloadSvg": "SVG İndir",
+      "clear": "Temizle",
+      "emptyState": "QR Kod burada görünecek",
+      "securityWarning": "Girdiğiniz hiçbir veri sunucuya gönderilmez. Tüm QR kod üretimi tarayıcınızda (istemci tarafında) çevrimdışı ve güvenli bir şekilde gerçekleşir."
+    },
+    "text-case-converter": {
+      "name": "Metin Çevirici",
+      "description": "Metinlerinizin harf büyüklüğünü ve formatını (CamelCase, UPPERCASE vb.) tek tıkla dönüştürün.",
+      "inputLabel": "Dönüştürülecek Metin",
+      "inputPlaceholder": "Buraya metninizi yapıştırın veya yazın...",
+      "outputLabel": "Sonuç",
+      "outputPlaceholder": "Sonuç burada görünecek...",
+      "stats": "{{chars}} karakter, {{words}} kelime, {{lines}} satır",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "downloadTxt": "TXT İndir",
+      "clear": "Temizle",
+      "cases": {
+        "uppercase": "BÜYÜK HARF",
+        "lowercase": "küçük harf",
+        "titleCase": "Başlık Harf Düzeni",
+        "sentenceCase": "Cümle düzeni",
+        "camelCase": "camelCase",
+        "pascalCase": "PascalCase",
+        "snakeCase": "snake_case",
+        "kebabCase": "kebab-case",
+        "toggleCase": "tErS hArF"
+      },
+      "securityWarning": "Tüm dönüşümler yalnızca tarayıcınızda (istemci tarafında) gerçekleştirilir. Metinleriniz hiçbir sunucuya gönderilmez."
+    },
+    "base64": {
+      "name": "Base64 Dönüştürücü",
+      "description": "Metinlerinizi güvenle Base64 formatına çevirin veya Base64 verilerini çözün. Unicode ve Türkçe karakter destekli.",
+      "encodeMode": "Base64 Kodla (Encode)",
+      "decodeMode": "Base64 Çöz (Decode)",
+      "inputLabel": "Giriş",
+      "inputPlaceholderEncode": "Base64 olarak kodlamak istediğiniz metni girin...",
+      "inputPlaceholderDecode": "Çözmek istediğiniz Base64 karakter dizisini yapıştırın...",
+      "outputLabel": "Çıktı",
+      "outputPlaceholder": "Sonuç burada görünecek...",
+      "stats": "{{chars}} karakter",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "downloadTxt": "İndir",
+      "clear": "Temizle",
+      "uploadTxt": "TXT Yükle",
+      "errorInvalidBase64": "Hata: Geçersiz Base64 formatı. Lütfen giriş metnini kontrol edin.",
+      "securityWarning": "Tüm işlemler yalnızca tarayıcınızda (istemci tarafında) gerçekleştirilir. Metinleriniz hiçbir sunucuya gönderilmez."
+    },
+    "url-encoder": {
+      "name": "URL Dönüştürücü",
+      "description": "URL veya metinlerinizi güvenle Encode edin veya Encode edilmiş URL verilerini çözün (Decode).",
+      "encodeMode": "URL Kodla (Encode)",
+      "decodeMode": "URL Çöz (Decode)",
+      "inputLabel": "Giriş",
+      "inputPlaceholderEncode": "Encode etmek istediğiniz metni veya URLyi girin...",
+      "inputPlaceholderDecode": "Çözmek istediğiniz Encode edilmiş URL dizisini yapıştırın...",
+      "outputLabel": "Çıktı",
+      "outputPlaceholder": "Sonuç burada görünecek...",
+      "stats": "{{chars}} karakter",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "downloadTxt": "İndir",
+      "clear": "Temizle",
+      "uploadTxt": "TXT Yükle",
+      "errorInvalidUrl": "Hata: Geçersiz URL-encoded format. Lütfen giriş metnini kontrol edin.",
+      "securityWarning": "Tüm işlemler yalnızca tarayıcınızda (istemci tarafında) gerçekleştirilir. Metinleriniz hiçbir sunucuya gönderilmez."
+    },
+    "color-converter": {
+      "name": "Renk Dönüştürücü",
+      "description": "Renk kodlarınızı HEX, RGB ve HSL formatları arasında anında dönüştürün. Canlı önizleme ve palet desteği ile.",
+      "hexLabel": "HEX Formatı",
+      "rgbLabel": "RGB Formatı",
+      "hslLabel": "HSL Formatı",
+      "hexPlaceholder": "Örn: #FF5733",
+      "rgbPlaceholder": "Örn: rgb(255, 87, 51)",
+      "hslPlaceholder": "Örn: hsl(10, 100%, 60%)",
+      "pickerLabel": "Renk Seçici",
+      "randomColor": "Rastgele Renk",
+      "reset": "Sıfırla",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "invalidColor": "Geçersiz",
+      "securityWarning": "Tüm dönüşümler tarayıcınızda (istemci tarafında) gerçekleştirilir."
+    },
+    "timestamp-converter": {
+      "name": "Unix Timestamp Dönüştürücü",
+      "description": "Unix timestamp değerlerini normal tarih ve saate (veya tam tersi) anında dönüştürün. Saniye, milisaniye ve yerel zaman dilimi destekli.",
+      "currentTimestamp": "Şu Anki Timestamp",
+      "refresh": "Yenile",
+      "seconds": "Saniye (s)",
+      "milliseconds": "Milisaniye (ms)",
+      "tsToDateLabel": "Timestamp → Tarih/Saat",
+      "tsPlaceholder": "Unix Timestamp girin...",
+      "dateToTsLabel": "Tarih/Saat → Timestamp",
+      "convert": "Dönüştür",
+      "utcTime": "UTC Zamanı",
+      "localTime": "Yerel Zaman",
+      "iso8601": "ISO 8601",
+      "timezone": "Zaman Dilimi:",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "invalidTs": "Geçersiz Timestamp",
+      "invalidDate": "Geçersiz Tarih",
+      "reset": "Sıfırla",
+      "now": "Şu An"
+    },
+    "jwt-decoder": {
+      "name": "JWT Çözücü (Decoder)",
+      "description": "JSON Web Token (JWT) değerlerini anında çözün. Header, Payload ve Signature alanlarını %100 gizlilikle tarayıcınızda inceleyin.",
+      "inputLabel": "JWT Token",
+      "inputPlaceholder": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "decode": "Çöz",
+      "clear": "Temizle",
+      "headerLabel": "Header",
+      "payloadLabel": "Payload",
+      "signatureLabel": "Signature (Hex)",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "downloadJson": "JSON İndir",
+      "securityWarning": "Bu araç JWT imzasını doğrulamaz. Gösterilen token geçerli veya güvenilir olduğu anlamına gelmez. Tüm işlemler yalnızca tarayıcınızda (istemci tarafında) gerçekleştirilir. Token asla bir sunucuya gönderilmez veya kaydedilmez.",
+      "errorEmpty": "Lütfen bir token girin.",
+      "errorFormat": "Geçersiz token formatı. JWT noktalarla ayrılmış 3 parçadan oluşmalıdır.",
+      "errorParse": "Token çözümlenirken hata oluştu. Base64URL veya JSON formatı geçersiz olabilir.",
+      "claimsTitle": "Standart Claim Analizi",
+      "claim_iss": "Issuer (iss)",
+      "claim_sub": "Subject (sub)",
+      "claim_aud": "Audience (aud)",
+      "claim_exp": "Expiration Time (exp)",
+      "claim_nbf": "Not Before (nbf)",
+      "claim_iat": "Issued At (iat)",
+      "claim_jti": "JWT ID (jti)",
+      "expired": "Süresi dolmuş"
+    },
+    "pdf-splitter": {
+      "name": "PDF Bölücü",
+      "description": "PDF dosyalarınızdan istediğiniz sayfaları seçin ve yeni PDF dosyaları olarak dışa aktarın. İşlemler tarayıcınızda %100 güvenli şekilde gerçekleşir.",
+      "uploadTitle": "PDF Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "Sadece .pdf dosyaları desteklenir.",
+      "invalidFile": "Geçersiz dosya. Lütfen gerçek bir PDF dosyası yükleyin.",
+      "pageSelection": "Sayfa Seçimi",
+      "rangePlaceholder": "Örn: 1-3, 5, 7-9",
+      "rangeLabel": "Aralık Seç:",
+      "selectAll": "Tümünü Seç",
+      "deselectAll": "Seçimi Temizle",
+      "outputMode": "Çıktı Modu",
+      "modeOnePdf": "Seçili Sayfalar -> Tek PDF",
+      "modeExtractEach": "Her Sayfayı Ayrı Çıkar",
+      "splitBtn": "PDF Böl",
+      "clearBtn": "Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, tüm işlemler tarayıcınızda gerçekleştirilir.",
+      "pageCount": "{count} Sayfa Yüklendi",
+      "errorParse": "Sayfa aralığı hatalı. Lütfen geçerli bir aralık girin (örn: 1-3, 5).",
+      "errorEmpty": "Lütfen en az bir sayfa seçin.",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "Başarıyla tamamlandı!",
+      "pageLabel": "Sayfa"
+    },
+    "jpg-to-pdf": {
+      "name": "JPG \\u2192 PDF",
+      "description": "Görsellerinizi (JPG/JPEG) saniyeler içinde tek bir PDF dosyasında birleştirin. Tarayıcınızda %100 güvenli ve ücretsiz çalışır.",
+      "uploadTitle": "JPG Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "Sadece .jpg, .jpeg dosyaları desteklenir.",
+      "invalidFile": "Geçersiz dosya. Lütfen JPG/JPEG görseli yükleyin.",
+      "createPdfBtn": "PDF Oluştur",
+      "clearBtn": "Tümünü Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, tüm işlemler tarayıcınızda gerçekleştirilir.",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "Başarıyla tamamlandı!",
+      "reorderInstructions": "Sıralamayı değiştirmek için görselleri sürükleyin veya okları kullanın."
+    },
+    "pdf-to-jpg": {
+      "name": "PDF \\u2192 JPG",
+      "description": "PDF dosyalarınızı yüksek kaliteli JPG görsellerine dönüştürün. İstediğiniz sayfaları seçin ve güvenle indirin.",
+      "uploadTitle": "PDF Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "Sadece .pdf dosyaları desteklenir.",
+      "invalidFile": "Geçersiz dosya. Lütfen gerçek bir PDF dosyası yükleyin.",
+      "pageSelection": "Sayfa Seçimi",
+      "selectAll": "Tümünü Seç",
+      "deselectAll": "Seçimi Temizle",
+      "qualityLabel": "Görsel Kalitesi",
+      "exportBtn": "JPG Olarak İndir",
+      "clearBtn": "Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, tüm işlemler tarayıcınızda gerçekleştirilir.",
+      "pageCount": "{count} Sayfa Yüklendi",
+      "errorEmpty": "Lütfen en az bir sayfa seçin.",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "Başarıyla tamamlandı!"
+    },
+    "pdf-rotator": {
+      "name": "PDF Sayfa Döndürücü",
+      "description": "PDF içindeki sayfaları 90°, 180° veya 270° döndürün. Ücretsiz, güvenli ve tamamen tarayıcınızda çalışır.",
+      "uploadTitle": "PDF Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "Sadece .pdf dosyaları desteklenir.",
+      "invalidFile": "Geçersiz dosya. Lütfen gerçek bir PDF dosyası yükleyin.",
+      "pageSelection": "Sayfaları Seç",
+      "selectAll": "Tümünü Seç",
+      "deselectAll": "Seçimi Temizle",
+      "rotationOptions": "Döndürme Yönü",
+      "rotateRight": "Sağa Döndür (90°)",
+      "rotateLeft": "Sola Döndür (-90°)",
+      "rotate180": "Ters Çevir (180°)",
+      "applyRotation": "Döndür",
+      "exportBtn": "PDF Kaydet",
+      "clearBtn": "Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, tüm işlemler tarayıcınızda gerçekleştirilir.",
+      "pageCount": "{count} Sayfa Yüklendi",
+      "errorEmpty": "Lütfen döndürülecek sayfaları seçin.",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "Başarıyla tamamlandı!"
+    },
+    "image-cropper": {
+      "name": "Fotoğraf Kırpıcı",
+      "description": "Görsellerinizi istediğiniz boyutta ve oranda kırpın. İşlemler tarayıcınızda %100 güvenli şekilde gerçekleşir.",
+      "uploadTitle": "Görsel Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "JPG, PNG ve WebP desteklenir.",
+      "invalidFile": "Geçersiz dosya. Lütfen desteklenen bir görsel yükleyin.",
+      "cropBtn": "Kırp ve İndir",
+      "clearBtn": "Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, tüm işlemler tarayıcınızda gerçekleştirilir.",
+      "aspectRatio": "Kırpma Oranı",
+      "freeCrop": "Serbest",
+      "formatTitle": "Çıktı Formatı",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "Başarıyla kırpıldı ve indirildi!"
+    },
+    "image-merger": {
+      "name": "Görsel Birleştirici",
+      "description": "Birden fazla görseli yan yana, alt alta veya grid şeklinde tek bir görselde birleştirin.",
+      "uploadTitle": "Görselleri Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "JPG, PNG ve WebP desteklenir.",
+      "invalidFile": "Geçersiz dosya.",
+      "mergeBtn": "Görselleri Birleştir",
+      "clearBtn": "Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, tüm işlemler tarayıcınızda gerçekleştirilir.",
+      "layoutTitle": "Düzen",
+      "layoutHorizontal": "Yatay",
+      "layoutVertical": "Dikey",
+      "layoutGrid": "Grid",
+      "spacingTitle": "Boşluk (px)",
+      "bgTitle": "Arka Plan Rengi",
+      "formatTitle": "Çıktı Formatı",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "Başarıyla birleştirildi!"
+    },
+    "exif-remover": {
+      "name": "EXIF Temizleyici",
+      "description": "Görsellerinizdeki gizli EXIF verilerini (GPS konumu, kamera modeli, tarih vb.) tek tıkla silin.",
+      "uploadTitle": "Görsel Yükle",
+      "uploadSubtitle": "veya sürükleyip bırakın",
+      "uploadFormats": "JPG, PNG ve WebP desteklenir.",
+      "invalidFile": "Geçersiz dosya.",
+      "removeBtn": "EXIF Verilerini Temizle",
+      "clearBtn": "Temizle",
+      "securityNotice": "Gizlilik uyarısı: Dosyalarınız sunucuya yüklenmez, metadata temizleme işlemi tarayıcınızda yapılır.",
+      "infoBox": "Not: Canvas yeniden çizim (redraw) yöntemiyle metadata sıfırlanır. Çıktı görseli EXIF barındırmaz.",
+      "originalSize": "Orijinal Boyut",
+      "processing": "İşleniyor...",
+      "downloadSuccess": "EXIF verileri temizlendi!"
+    },
+    "calculator": {
+      "name": "Hesap Makinesi",
+      "description": "Günlük matematiksel işlemleriniz için güvenli, hızlı ve kullanımı kolay online hesap makinesi.",
+      "history": "Geçmiş",
+      "clearHistory": "Geçmişi Temizle",
+      "copySuccess": "Kopyalandı",
+      "errorDivZero": "Sıfıra bölünemez",
+      "errorInvalid": "Geçersiz İşlem",
+      "clear": "AC",
+      "delete": "DEL"
+    },
+    "percentage-calculator": {
+      "name": "Yüzde Hesaplayıcı",
+      "description": "Yüzde bulma, yüzde artış/azalış, KDV hesaplama ve indirim hesaplama araçları.",
+      "calc1": "Bir sayının yüzdesi",
+      "calc2": "Bir sayı diğerinin % kaçı",
+      "calc3": "Yüzde Değişimi",
+      "calc4": "KDV Ekle/Çıkar",
+      "calc5": "İndirim Hesapla",
+      "numberPlaceholder": "Sayı",
+      "percentPlaceholder": "%",
+      "result": "Sonuç",
+      "calculate": "Hesapla",
+      "ofIs": "{number} sayısının %{percent} kadarı",
+      "isWhatPercentOf": "{num1}, {num2} sayısının %{result} kadarıdır",
+      "increaseFrom": "{num1} değerinden {num2} değerine değişim",
+      "increase": "%{result} Artış",
+      "decrease": "%{result} Azalış",
+      "vatAdd": "KDV Dahil",
+      "vatSub": "KDV Hariç",
+      "vatRate": "KDV Oranı (%)",
+      "price": "Fiyat",
+      "discountRate": "İndirim Oranı (%)",
+      "discountedPrice": "İndirimli Fiyat",
+      "savings": "Tasarruf",
+      "invalidInput": "Lütfen geçerli değerler girin."
+    },
+    "age-calculator": {
+      "name": "Yaş Hesaplayıcı",
+      "description": "Tam yaşınızı (yıl, ay, gün olarak), bir sonraki doğum gününüzü ve doğduğunuz günü anında hesaplayın.",
+      "dobLabel": "Doğum Tarihi",
+      "targetDateLabel": "Hesaplanacak Tarih (Varsayılan Bugün)",
+      "calcBtn": "Yaşımı Hesapla",
+      "resultsTitle": "Sonuçlar",
+      "ageExact": "Tam Yaşınız",
+      "years": "Yıl",
+      "months": "Ay",
+      "days": "Gün",
+      "totalDays": "Toplam Yaşanan Gün",
+      "nextBirthday": "Sonraki Doğum Gününe Kalan",
+      "bornOn": "Doğduğunuz Gün",
+      "futureError": "Doğum tarihi gelecekte olamaz!",
+      "invalidDate": "Geçersiz tarih.",
+      "resetBtn": "Sıfırla"
+    },
+    "unit-converter": {
+      "name": "Birim Dönüştürücü",
+      "description": "Uzunluk, ağırlık, sıcaklık, alan, hacim ve zaman gibi farklı birimleri anında birbirine çevirin.",
+      "category": "Kategori",
+      "from": "Buradan",
+      "to": "Buraya",
+      "value": "Değer",
+      "result": "Sonuç",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "clear": "Temizle",
+      "categories": {
+        "length": "Uzunluk",
+        "weight": "Ağırlık",
+        "temperature": "Sıcaklık",
+        "area": "Alan",
+        "volume": "Hacim",
+        "time": "Zaman"
+      },
+      "units": {
+        "mm": "Milimetre (mm)",
+        "cm": "Santimetre (cm)",
+        "m": "Metre (m)",
+        "km": "Kilometre (km)",
+        "inch": "İnç (in)",
+        "feet": "Fit (ft)",
+        "yard": "Yarda (yd)",
+        "mile": "Mil (mi)",
+        "mg": "Miligram (mg)",
+        "g": "Gram (g)",
+        "kg": "Kilogram (kg)",
+        "ton": "Ton (t)",
+        "oz": "Ons (oz)",
+        "lb": "Pound (lb)",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)",
+        "kelvin": "Kelvin (K)",
+        "m2": "Metrekare (m²)",
+        "km2": "Kilometrekare (km²)",
+        "hectare": "Hektar (ha)",
+        "acre": "Akre (ac)",
+        "ml": "Mililitre (ml)",
+        "l": "Litre (l)",
+        "m3": "Metreküp (m³)",
+        "gallon": "Galon (gal)",
+        "sec": "Saniye (s)",
+        "min": "Dakika (dk)",
+        "hr": "Saat (sa)",
+        "day": "Gün (g)"
+      }
+    },
+    "date-difference": {
+      "name": "Tarih Farkı Hesaplayıcı",
+      "description": "İki tarih arasındaki toplam günü, iş günlerini ve yıl/ay/gün olarak tam farkı hesaplayın.",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi",
+      "totalDays": "Toplam Gün",
+      "weeksAndDays": "Hafta ve Gün",
+      "exactDiff": "Tam Fark (Yıl, Ay, Gün)",
+      "workDays": "İş Günü",
+      "workDaysSub": "(Cumartesi ve Pazar hariç)",
+      "sameDate": "Tarihler aynı (0 gün)",
+      "swapped": "Başlangıç tarihi bitiş tarihinden sonra olamaz, tarihler otomatik sıralandı.",
+      "clear": "Temizle",
+      "copy": "Kopyala"
+    },
+    "stopwatch": {
+      "name": "Kronometre ve Zamanlayıcı",
+      "description": "Hassas kronometre ile tur sürelerinizi kaydedin veya özel zamanlayıcı kurarak alarm kurun.",
+      "tabStopwatch": "Kronometre",
+      "tabTimer": "Zamanlayıcı",
+      "start": "Başlat",
+      "pause": "Duraklat",
+      "resume": "Devam Et",
+      "reset": "Sıfırla",
+      "lap": "Tur",
+      "laps": "Turlar",
+      "fastest": "En Hızlı",
+      "slowest": "En Yavaş",
+      "hr": "Saat",
+      "min": "Dakika",
+      "sec": "Saniye",
+      "timeUp": "Süre Doldu!",
+      "stopAlarm": "Alarmı Sustur",
+      "invalidTimer": "Lütfen geçerli bir süre girin."
+    },
+    "pdf-text-extractor": {
+      "name": "PDF'den Metin Çıkarıcı",
+      "description": "PDF dosyalarınızın içindeki metinleri tamamen tarayıcınızda, güvenle ve hızlıca çıkarın.",
+      "upload": "PDF Yükle",
+      "dragDrop": "veya sürükleyip bırakın",
+      "invalidFile": "Geçersiz dosya. Lütfen geçerli bir PDF dosyası yükleyin.",
+      "pageCount": "{count} Sayfa",
+      "extractAll": "Tüm Metni Çıkar",
+      "extractPage": "{page}. Sayfayı Çıkar",
+      "extracting": "Çıkarılıyor...",
+      "copy": "Kopyala",
+      "downloadTxt": "TXT İndir",
+      "clear": "Temizle",
+      "emptyWarning": "Bu sayfada metin bulunamadı. Belge taranmış bir resim olabilir.",
+      "pageSelector": "Sayfa Seç:"
+    },
+    "image-rotator": {
+      "name": "Fotoğraf Döndürücü",
+      "description": "Görsellerinizi istediğiniz yöne döndürün veya aynalayın (flip). Kayıpsız olarak indirin.",
+      "upload": "Görsel Yükle",
+      "dragDrop": "veya sürükleyip bırakın (JPG, PNG, WebP)",
+      "rotateRight": "Sağa Döndür (90°)",
+      "rotateLeft": "Sola Döndür (90°)",
+      "rotate180": "180° Döndür",
+      "flipHorizontal": "Yatay Çevir",
+      "flipVertical": "Dikey Çevir",
+      "originalSize": "Orijinal Boyut:",
+      "newSize": "Yeni Boyut:",
+      "format": "Çıktı Formatı:",
+      "download": "İndir",
+      "clear": "Temizle",
+      "invalidImage": "Geçersiz görsel."
+    },
+    "text-cleaner": {
+      "name": "Metin Temizleyici",
+      "description": "Fazla boşlukları, boş satırları ve sekmeleri temizleyin. Metninizi anında düzenleyin.",
+      "pasteText": "Metninizi buraya yapıştırın...",
+      "trimSpaces": "Baş/Son Boşlukları (Trim)",
+      "removeExtraSpaces": "Fazla Boşlukları Teke İndir",
+      "removeEmptyLines": "Boş Satırları Kaldır",
+      "collapseEmptyLines": "Birden Fazla Boş Satırı Teke İndir",
+      "tabsToSpaces": "Sekmeleri (Tab) Boşluğa Çevir",
+      "normalizeLineEndings": "Satır Sonlarını Normalize Et",
+      "caseLower": "küçük harf",
+      "caseUpper": "BÜYÜK HARF",
+      "caseOriginal": "Orijinal",
+      "caseSelector": "Harf Dönüşümü:",
+      "charCount": "Karakter",
+      "wordCount": "Kelime",
+      "copy": "Kopyala",
+      "downloadTxt": "TXT İndir",
+      "clear": "Temizle"
+    }
+  }
+}

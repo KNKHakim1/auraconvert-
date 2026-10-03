@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "siteName": "AuraConvert",
+    "defaultTitle": "AuraConvert — All the tools you need. In one place.",
+    "defaultDescription": "Use PDF, image, text, video, and developer tools in one consistent interface. AuraConvert is a browser-based online tools platform."
+  },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "themes": "Themes",
+    "categories": "Categories",
+    "searchPlaceholder": "Search tools…",
+    "searchAria": "Search tools",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "language": "Language",
+    "noResults": "No matching tools."
+  },
+  "themes": {
+    "title": "Themes",
+    "subtitle": "Personalize your AuraConvert experience. Choose a theme that suits your style.",
+    "active": "Active",
+    "light": {
+      "name": "Light Mode",
+      "desc": "Clean and bright white"
+    },
+    "dark": {
+      "name": "Dark Mode",
+      "desc": "Classic dark gray"
+    },
+    "midnight": {
+      "name": "Midnight",
+      "desc": "Deep slate blue"
+    },
+    "amoled": {
+      "name": "AMOLED Black",
+      "desc": "Pure black for OLED"
+    },
+    "dim": {
+      "name": "Dim",
+      "desc": "Soft and muted gray"
+    },
+    "stone": {
+      "name": "Stone",
+      "desc": "Warm dark tones"
+    },
+    "dracula": {
+      "name": "Dracula",
+      "desc": "Dark purple & pink"
+    },
+    "nord": {
+      "name": "Nord",
+      "desc": "Frosty cool cyan"
+    },
+    "ocean": {
+      "name": "Ocean",
+      "desc": "Deep oceanic teal"
+    },
+    "monochrome": {
+      "name": "Monochrome",
+      "desc": "Black and white harmony"
+    }
+  },
+  "home": {
+    "eyebrow": "Online tools platform",
+    "heroTitle": "All the tools you need. In one place.",
+    "heroSubtitle": "Run PDF, image, text, media, and developer tools in the browser, under one design system. New tools can be added without rewriting the platform.",
+    "searchPlaceholder": "Search PDF, character counter, images, or speed test…",
+    "popular": "Popular tools",
+    "categories": "Categories",
+    "recent": "Recently added",
+    "featured": "Featured",
+    "browseAll": "Browse all tools",
+    "toolsCount": "{count} tools",
+    "emptyCategory": "No tools in this category yet."
+  },
+  "toolsPage": {
+    "title": "All tools",
+    "subtitle": "Browse registered tools by category. Adding a new tool only requires its own folder and a registry entry.",
+    "empty": "No tools to show in this view.",
+    "filterAll": "All"
+  },
+  "tool": {
+    "clientSide": "Runs in the browser",
+    "serverSide": "Runs on the server",
+    "notFoundTitle": "Tool not found",
+    "notFoundBody": "There is no registered tool for this address."
+  },
+  "characterCounter": {
+    "inputLabel": "Text",
+    "placeholder": "Type or paste the text you want to count…",
+    "characters": "Characters",
+    "words": "Words",
+    "lines": "Lines",
+    "reset": "Reset"
+  },
+  "ads": {
+    "label": "Advertisement",
+    "note": "A real ad network is not connected yet."
+  },
+  "footer": {
+    "tagline": "All the tools. One platform.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "about": "About Us"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for may have moved or never existed.",
+    "home": "Back to home"
+  },
+  "categories": {
+    "text": {
+      "name": "Text",
+      "description": "Character counting, encoding, and writing tools"
+    },
+    "pdf": {
+      "name": "PDF",
+      "description": "Compression, merging, and conversion"
+    },
+    "image": {
+      "name": "Image",
+      "description": "Compression, resizing, and format conversion"
+    },
+    "video": {
+      "name": "Video",
+      "description": "Trimming, conversion, and media helpers"
+    },
+    "audio": {
+      "name": "Audio",
+      "description": "MP3 and audio file tools"
+    },
+    "developer": {
+      "name": "Developer",
+      "description": "JSON, code, and utility tools"
+    },
+    "internet": {
+      "name": "Internet",
+      "description": "Speed tests and connection tools"
+    },
+    "files": {
+      "name": "Files",
+      "description": "Safer in-browser file utilities"
+    },
+    "games": {
+      "name": "Games",
+      "description": "Server and configuration validators"
+    },
+    "utility": {
+      "name": "Utility",
+      "description": "Generate strong passwords and use handy mini-tools."
+    },
+    "math": {
+      "name": "Math & Calculators"
+    }
+  },
+  "tools": {
+    "character-counter": {
+      "name": "Character Counter",
+      "description": "Count characters, words, and lines in real time."
+    },
+    "image-compressor": {
+      "name": "Image Compressor",
+      "description": "Reduce image file size directly in your browser without losing quality."
+    },
+    "image-resizer": {
+      "name": "Image Resizer",
+      "description": "Resize and scale images by adjusting width and height instantly."
+    },
+    "background-remover": {
+      "name": "Background Remover",
+      "description": "Remove image backgrounds in seconds using on-device AI."
+    },
+    "image-converter": {
+      "name": "Image Converter",
+      "description": "Convert your images to JPG, PNG, WebP, and AVIF formats."
+    },
+    "watermark-remover": {
+      "name": "Watermark Remover",
+      "description": "Remove unwanted text, logos, or objects from your images."
+    },
+    "favicon-generator": {
+      "name": "Favicon Generator",
+      "description": "Convert your images into website favicons (ICO and PNG) compatible with all modern devices."
+    },
+    "json-formatter": {
+      "name": "JSON Formatter",
+      "description": "Format, validate, and debug your JSON data right in your browser."
+    },
+    "pdf-compressor": {
+      "name": "PDF Compressor",
+      "description": "Reduce the file size of your PDFs. Processing is done securely in your browser without uploading to any server."
+    },
+    "password-generator": {
+      "name": "Strong Password Generator",
+      "description": "Generate secure, hard-to-crack random passwords using advanced algorithms.",
+      "length": "Password Length",
+      "uppercase": "Uppercase (A-Z)",
+      "lowercase": "Lowercase (a-z)",
+      "numbers": "Numbers (0-9)",
+      "symbols": "Symbols (!@#$%)",
+      "generate": "Generate Password",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "errorNoOption": "Please select at least one character type.",
+      "securityWarning": "Your passwords are generated locally and securely in your browser (Web Crypto API). They are never sent or saved to any server."
+    },
+    "pdf-merger": {
+      "name": "PDF Merger",
+      "description": "Merge multiple PDF files into a single document. Reorder pages and process with 100% privacy directly in your browser.",
+      "uploadOrDrag": "Upload or drag PDFs",
+      "uploadDescription": "At least 2 PDF files (Max 50MB/file)",
+      "selectedFiles": "Selected Files",
+      "clearAll": "Clear All",
+      "mergePdfs": "Merge PDFs",
+      "processing": "Merging PDFs...",
+      "download": "Download (.pdf)",
+      "errorMinFiles": "You must select at least 2 PDF files to merge.",
+      "errorInvalidFile": "Please upload only valid PDF files.",
+      "securityWarning": "All operations are performed entirely in your browser (client-side). Your privacy is guaranteed; no files are uploaded or saved to the cloud.",
+      "addMore": "Add more PDFs"
+    },
+    "qr-code-generator": {
+      "name": "QR Code Generator",
+      "description": "Enter text or URL to instantly generate a high-quality QR code. Download as PNG or SVG.",
+      "inputLabel": "QR Content (URL or Text)",
+      "inputPlaceholder": "Enter https://auraconvert.pro or any plain text...",
+      "sizeLabel": "QR Size",
+      "levelLabel": "Error Correction Level",
+      "levelL": "Low (L - 7%)",
+      "levelM": "Medium (M - 15%)",
+      "levelQ": "High (Q - 25%)",
+      "levelH": "Highest (H - 30%)",
+      "downloadPng": "Download PNG",
+      "downloadSvg": "Download SVG",
+      "clear": "Clear",
+      "emptyState": "QR Code will appear here",
+      "securityWarning": "No data you enter is sent to a server. All QR code generation happens securely and offline directly in your browser."
+    },
+    "text-case-converter": {
+      "name": "Text Case Converter",
+      "description": "Convert your text to various letter cases and formats (CamelCase, UPPERCASE, etc.) with a single click.",
+      "inputLabel": "Text to Convert",
+      "inputPlaceholder": "Type or paste your text here...",
+      "outputLabel": "Result",
+      "outputPlaceholder": "Result will appear here...",
+      "stats": "{{chars}} characters, {{words}} words, {{lines}} lines",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "downloadTxt": "Download TXT",
+      "clear": "Clear",
+      "cases": {
+        "uppercase": "UPPERCASE",
+        "lowercase": "lowercase",
+        "titleCase": "Title Case",
+        "sentenceCase": "Sentence case",
+        "camelCase": "camelCase",
+        "pascalCase": "PascalCase",
+        "snakeCase": "snake_case",
+        "kebabCase": "kebab-case",
+        "toggleCase": "tOGGLE cASE"
+      },
+      "securityWarning": "All conversions are performed entirely in your browser (client-side). Your text is never sent to a server."
+    },
+    "base64": {
+      "name": "Base64 Converter",
+      "description": "Securely encode your text to Base64 or decode Base64 data. Full support for Unicode and special characters.",
+      "encodeMode": "Encode to Base64",
+      "decodeMode": "Decode Base64",
+      "inputLabel": "Input",
+      "inputPlaceholderEncode": "Enter text to encode to Base64...",
+      "inputPlaceholderDecode": "Paste Base64 string to decode...",
+      "outputLabel": "Output",
+      "outputPlaceholder": "Result will appear here...",
+      "stats": "{{chars}} characters",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "downloadTxt": "Download",
+      "clear": "Clear",
+      "uploadTxt": "Upload TXT",
+      "errorInvalidBase64": "Error: Invalid Base64 format. Please check your input string.",
+      "securityWarning": "All conversions are performed entirely in your browser (client-side). Your text is never sent to a server."
+    },
+    "url-encoder": {
+      "name": "URL Encoder",
+      "description": "Securely encode your URLs or text, or decode URL-encoded data. Full support for special characters.",
+      "encodeMode": "Encode URL",
+      "decodeMode": "Decode URL",
+      "inputLabel": "Input",
+      "inputPlaceholderEncode": "Enter text or URL to encode...",
+      "inputPlaceholderDecode": "Paste URL-encoded string to decode...",
+      "outputLabel": "Output",
+      "outputPlaceholder": "Result will appear here...",
+      "stats": "{{chars}} characters",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "downloadTxt": "Download",
+      "clear": "Clear",
+      "uploadTxt": "Upload TXT",
+      "errorInvalidUrl": "Error: Invalid URL-encoded format. Please check your input string.",
+      "securityWarning": "All conversions are performed entirely in your browser (client-side). Your text is never sent to a server."
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "Instantly convert color codes between HEX, RGB, and HSL formats. Features live preview and color picker support.",
+      "hexLabel": "HEX Format",
+      "rgbLabel": "RGB Format",
+      "hslLabel": "HSL Format",
+      "hexPlaceholder": "e.g. #FF5733",
+      "rgbPlaceholder": "e.g. rgb(255, 87, 51)",
+      "hslPlaceholder": "e.g. hsl(10, 100%, 60%)",
+      "pickerLabel": "Color Picker",
+      "randomColor": "Random Color",
+      "reset": "Reset",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "invalidColor": "Invalid",
+      "securityWarning": "All conversions are performed in your browser (client-side)."
+    },
+    "timestamp-converter": {
+      "name": "Unix Timestamp Converter",
+      "description": "Instantly convert Unix timestamps to human-readable dates (and vice versa). Supports seconds, milliseconds, and local timezones.",
+      "currentTimestamp": "Current Timestamp",
+      "refresh": "Refresh",
+      "seconds": "Seconds (s)",
+      "milliseconds": "Milliseconds (ms)",
+      "tsToDateLabel": "Timestamp → Date/Time",
+      "tsPlaceholder": "Enter Unix Timestamp...",
+      "dateToTsLabel": "Date/Time → Timestamp",
+      "convert": "Convert",
+      "utcTime": "UTC Time",
+      "localTime": "Local Time",
+      "iso8601": "ISO 8601",
+      "timezone": "Timezone:",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "invalidTs": "Invalid Timestamp",
+      "invalidDate": "Invalid Date",
+      "reset": "Reset",
+      "now": "Now"
+    },
+    "jwt-decoder": {
+      "name": "JWT Decoder",
+      "description": "Instantly decode JSON Web Tokens (JWT). Inspect Header, Payload, and Signature securely in your browser with 100% privacy.",
+      "inputLabel": "JWT Token",
+      "inputPlaceholder": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "decode": "Decode",
+      "clear": "Clear",
+      "headerLabel": "Header",
+      "payloadLabel": "Payload",
+      "signatureLabel": "Signature (Hex)",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "downloadJson": "Download JSON",
+      "securityWarning": "This tool does not verify the JWT signature. Displaying the token does not mean it is valid or trusted. All processing is done entirely in your browser (client-side). Your token is never sent to a server or saved.",
+      "errorEmpty": "Please enter a token.",
+      "errorFormat": "Invalid token format. JWT must consist of 3 parts separated by dots.",
+      "errorParse": "Error decoding token. Invalid Base64URL or JSON format.",
+      "claimsTitle": "Standard Claims Analysis",
+      "claim_iss": "Issuer (iss)",
+      "claim_sub": "Subject (sub)",
+      "claim_aud": "Audience (aud)",
+      "claim_exp": "Expiration Time (exp)",
+      "claim_nbf": "Not Before (nbf)",
+      "claim_iat": "Issued At (iat)",
+      "claim_jti": "JWT ID (jti)",
+      "expired": "Expired"
+    },
+    "pdf-splitter": {
+      "name": "PDF Splitter",
+      "description": "Select pages from your PDF files and export them as new PDF files. All processing happens 100% securely in your browser.",
+      "uploadTitle": "Upload PDF",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "Only .pdf files are supported.",
+      "invalidFile": "Invalid file. Please upload a real PDF file.",
+      "pageSelection": "Page Selection",
+      "rangePlaceholder": "e.g. 1-3, 5, 7-9",
+      "rangeLabel": "Select Range:",
+      "selectAll": "Select All",
+      "deselectAll": "Deselect All",
+      "outputMode": "Output Mode",
+      "modeOnePdf": "Selected Pages -> One PDF",
+      "modeExtractEach": "Extract Each Page",
+      "splitBtn": "Split PDF",
+      "clearBtn": "Clear",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, all processing is done entirely in your browser.",
+      "pageCount": "{count} Pages Loaded",
+      "errorParse": "Invalid page range. Please enter a valid range (e.g. 1-3, 5).",
+      "errorEmpty": "Please select at least one page.",
+      "processing": "Processing...",
+      "downloadSuccess": "Completed successfully!",
+      "pageLabel": "Page"
+    },
+    "jpg-to-pdf": {
+      "name": "JPG \\u2192 PDF",
+      "description": "Merge your images (JPG/JPEG) into a single PDF file in seconds. 100% secure and free in your browser.",
+      "uploadTitle": "Upload JPG",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "Only .jpg, .jpeg files are supported.",
+      "invalidFile": "Invalid file. Please upload a JPG/JPEG image.",
+      "createPdfBtn": "Create PDF",
+      "clearBtn": "Clear All",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, all processing is done entirely in your browser.",
+      "processing": "Processing...",
+      "downloadSuccess": "Completed successfully!",
+      "reorderInstructions": "Drag images or use arrows to reorder them."
+    },
+    "pdf-to-jpg": {
+      "name": "PDF \\u2192 JPG",
+      "description": "Convert your PDF files to high-quality JPG images. Select the pages you want and download securely.",
+      "uploadTitle": "Upload PDF",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "Only .pdf files are supported.",
+      "invalidFile": "Invalid file. Please upload a real PDF file.",
+      "pageSelection": "Page Selection",
+      "selectAll": "Select All",
+      "deselectAll": "Deselect All",
+      "qualityLabel": "Image Quality",
+      "exportBtn": "Download as JPG",
+      "clearBtn": "Clear",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, all processing is done entirely in your browser.",
+      "pageCount": "{count} Pages Loaded",
+      "errorEmpty": "Please select at least one page.",
+      "processing": "Processing...",
+      "downloadSuccess": "Completed successfully!"
+    },
+    "pdf-rotator": {
+      "name": "PDF Rotator",
+      "description": "Rotate pages within a PDF by 90°, 180°, or 270°. Free, secure, and runs entirely in your browser.",
+      "uploadTitle": "Upload PDF",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "Only .pdf files are supported.",
+      "invalidFile": "Invalid file. Please upload a real PDF file.",
+      "pageSelection": "Select Pages",
+      "selectAll": "Select All",
+      "deselectAll": "Deselect All",
+      "rotationOptions": "Rotation Direction",
+      "rotateRight": "Rotate Right (90°)",
+      "rotateLeft": "Rotate Left (-90°)",
+      "rotate180": "Flip (180°)",
+      "applyRotation": "Rotate",
+      "exportBtn": "Save PDF",
+      "clearBtn": "Clear",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, all processing is done entirely in your browser.",
+      "pageCount": "{count} Pages Loaded",
+      "errorEmpty": "Please select pages to rotate.",
+      "processing": "Processing...",
+      "downloadSuccess": "Completed successfully!"
+    },
+    "image-cropper": {
+      "name": "Image Cropper",
+      "description": "Crop your images to any size and aspect ratio securely in your browser.",
+      "uploadTitle": "Upload Image",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "JPG, PNG, and WebP are supported.",
+      "invalidFile": "Invalid file. Please upload a supported image.",
+      "cropBtn": "Crop & Download",
+      "clearBtn": "Clear",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, all processing is done entirely in your browser.",
+      "aspectRatio": "Aspect Ratio",
+      "freeCrop": "Free",
+      "formatTitle": "Output Format",
+      "processing": "Processing...",
+      "downloadSuccess": "Cropped and downloaded successfully!"
+    },
+    "image-merger": {
+      "name": "Image Merger",
+      "description": "Merge multiple images horizontally, vertically, or in a grid into a single image.",
+      "uploadTitle": "Upload Images",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "JPG, PNG, and WebP are supported.",
+      "invalidFile": "Invalid file.",
+      "mergeBtn": "Merge Images",
+      "clearBtn": "Clear",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, all processing is done entirely in your browser.",
+      "layoutTitle": "Layout",
+      "layoutHorizontal": "Horizontal",
+      "layoutVertical": "Vertical",
+      "layoutGrid": "Grid",
+      "spacingTitle": "Spacing (px)",
+      "bgTitle": "Background Color",
+      "formatTitle": "Output Format",
+      "processing": "Processing...",
+      "downloadSuccess": "Merged successfully!"
+    },
+    "exif-remover": {
+      "name": "EXIF Remover",
+      "description": "Remove hidden EXIF metadata (GPS, camera model, date, etc.) from your images with one click.",
+      "uploadTitle": "Upload Image",
+      "uploadSubtitle": "or drag and drop",
+      "uploadFormats": "JPG, PNG, and WebP are supported.",
+      "invalidFile": "Invalid file.",
+      "removeBtn": "Remove EXIF Metadata",
+      "clearBtn": "Clear",
+      "securityNotice": "Privacy notice: Your files are never uploaded to a server, metadata cleaning is done in your browser.",
+      "infoBox": "Note: Metadata is wiped using the Canvas redraw method. The output image will not contain EXIF data.",
+      "originalSize": "Original Size",
+      "processing": "Processing...",
+      "downloadSuccess": "EXIF data removed!"
+    },
+    "calculator": {
+      "name": "Calculator",
+      "description": "Safe, fast, and easy-to-use online calculator for your daily mathematical operations.",
+      "history": "History",
+      "clearHistory": "Clear History",
+      "copySuccess": "Copied",
+      "errorDivZero": "Cannot divide by zero",
+      "errorInvalid": "Invalid Expression",
+      "clear": "AC",
+      "delete": "DEL"
+    },
+    "percentage-calculator": {
+      "name": "Percentage Calculator",
+      "description": "Find percentages, calculate percentage increase/decrease, add/subtract VAT, and calculate discounts.",
+      "calc1": "Percentage of a number",
+      "calc2": "What % is one number of another",
+      "calc3": "Percentage Change",
+      "calc4": "Add/Subtract VAT",
+      "calc5": "Discount Calculator",
+      "numberPlaceholder": "Number",
+      "percentPlaceholder": "%",
+      "result": "Result",
+      "calculate": "Calculate",
+      "ofIs": "{percent}% of {number} is",
+      "isWhatPercentOf": "{num1} is {result}% of {num2}",
+      "increaseFrom": "Change from {num1} to {num2}",
+      "increase": "{result}% Increase",
+      "decrease": "{result}% Decrease",
+      "vatAdd": "VAT Inclusive",
+      "vatSub": "VAT Exclusive",
+      "vatRate": "VAT Rate (%)",
+      "price": "Price",
+      "discountRate": "Discount Rate (%)",
+      "discountedPrice": "Discounted Price",
+      "savings": "Savings",
+      "invalidInput": "Please enter valid values."
+    },
+    "age-calculator": {
+      "name": "Age Calculator",
+      "description": "Instantly calculate your exact age (years, months, days), days until your next birthday, and day of birth.",
+      "dobLabel": "Date of Birth",
+      "targetDateLabel": "Target Date (Default Today)",
+      "calcBtn": "Calculate My Age",
+      "resultsTitle": "Results",
+      "ageExact": "Your Exact Age",
+      "years": "Years",
+      "months": "Months",
+      "days": "Days",
+      "totalDays": "Total Days Lived",
+      "nextBirthday": "Days to Next Birthday",
+      "bornOn": "Day of Birth",
+      "futureError": "Date of birth cannot be in the future!",
+      "invalidDate": "Invalid date.",
+      "resetBtn": "Reset"
+    },
+    "unit-converter": {
+      "name": "Unit Converter",
+      "description": "Instantly convert units of length, weight, temperature, area, volume, and time.",
+      "category": "Category",
+      "from": "From",
+      "to": "To",
+      "value": "Value",
+      "result": "Result",
+      "copy": "Copy",
+      "copied": "Copied",
+      "clear": "Clear",
+      "categories": {
+        "length": "Length",
+        "weight": "Weight",
+        "temperature": "Temperature",
+        "area": "Area",
+        "volume": "Volume",
+        "time": "Time"
+      },
+      "units": {
+        "mm": "Millimeter (mm)",
+        "cm": "Centimeter (cm)",
+        "m": "Meter (m)",
+        "km": "Kilometer (km)",
+        "inch": "Inch (in)",
+        "feet": "Feet (ft)",
+        "yard": "Yard (yd)",
+        "mile": "Mile (mi)",
+        "mg": "Milligram (mg)",
+        "g": "Gram (g)",
+        "kg": "Kilogram (kg)",
+        "ton": "Ton (t)",
+        "oz": "Ounce (oz)",
+        "lb": "Pound (lb)",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)",
+        "kelvin": "Kelvin (K)",
+        "m2": "Square Meter (m²)",
+        "km2": "Square Kilometer (km²)",
+        "hectare": "Hectare (ha)",
+        "acre": "Acre (ac)",
+        "ml": "Milliliter (ml)",
+        "l": "Liter (l)",
+        "m3": "Cubic Meter (m³)",
+        "gallon": "Gallon (gal)",
+        "sec": "Second (s)",
+        "min": "Minute (m)",
+        "hr": "Hour (h)",
+        "day": "Day (d)"
+      }
+    },
+    "date-difference": {
+      "name": "Date Difference Calculator",
+      "description": "Calculate the total days, workdays, and exact years/months/days between two dates.",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "totalDays": "Total Days",
+      "weeksAndDays": "Weeks and Days",
+      "exactDiff": "Exact Difference (Y, M, D)",
+      "workDays": "Work Days",
+      "workDaysSub": "(Excluding Saturdays and Sundays)",
+      "sameDate": "Dates are the same (0 days)",
+      "swapped": "Start date was after end date. Dates were automatically sorted.",
+      "clear": "Clear",
+      "copy": "Copy"
+    },
+    "stopwatch": {
+      "name": "Stopwatch & Timer",
+      "description": "Record lap times with a precise stopwatch or set a custom timer with an alarm.",
+      "tabStopwatch": "Stopwatch",
+      "tabTimer": "Timer",
+      "start": "Start",
+      "pause": "Pause",
+      "resume": "Resume",
+      "reset": "Reset",
+      "lap": "Lap",
+      "laps": "Laps",
+      "fastest": "Fastest",
+      "slowest": "Slowest",
+      "hr": "Hours",
+      "min": "Minutes",
+      "sec": "Seconds",
+      "timeUp": "Time is up!",
+      "stopAlarm": "Stop Alarm",
+      "invalidTimer": "Please enter a valid duration."
+    },
+    "pdf-text-extractor": {
+      "name": "PDF Text Extractor",
+      "description": "Extract text from your PDF files entirely in your browser, safely and instantly.",
+      "upload": "Upload PDF",
+      "dragDrop": "or drag and drop",
+      "invalidFile": "Invalid file. Please upload a valid PDF.",
+      "pageCount": "{count} Pages",
+      "extractAll": "Extract All Text",
+      "extractPage": "Extract Page {page}",
+      "extracting": "Extracting...",
+      "copy": "Copy",
+      "downloadTxt": "Download TXT",
+      "clear": "Clear",
+      "emptyWarning": "No text found on this page. The document might be a scanned image.",
+      "pageSelector": "Select Page:"
+    },
+    "image-rotator": {
+      "name": "Image Rotator",
+      "description": "Rotate or flip your images in any direction. Download losslessly.",
+      "upload": "Upload Image",
+      "dragDrop": "or drag and drop (JPG, PNG, WebP)",
+      "rotateRight": "Rotate Right (90°)",
+      "rotateLeft": "Rotate Left (90°)",
+      "rotate180": "Rotate 180°",
+      "flipHorizontal": "Flip Horizontal",
+      "flipVertical": "Flip Vertical",
+      "originalSize": "Original Size:",
+      "newSize": "New Size:",
+      "format": "Output Format:",
+      "download": "Download",
+      "clear": "Clear",
+      "invalidImage": "Invalid image."
+    },
+    "text-cleaner": {
+      "name": "Text Cleaner",
+      "description": "Clean up extra spaces, empty lines, and tabs. Format your text instantly.",
+      "pasteText": "Paste your text here...",
+      "trimSpaces": "Trim Start/End Spaces",
+      "removeExtraSpaces": "Remove Extra Spaces",
+      "removeEmptyLines": "Remove Empty Lines",
+      "collapseEmptyLines": "Collapse Multiple Empty Lines",
+      "tabsToSpaces": "Convert Tabs to Spaces",
+      "normalizeLineEndings": "Normalize Line Endings",
+      "caseLower": "lowercase",
+      "caseUpper": "UPPERCASE",
+      "caseOriginal": "Original",
+      "caseSelector": "Case Conversion:",
+      "charCount": "Chars",
+      "wordCount": "Words",
+      "copy": "Copy",
+      "downloadTxt": "Download TXT",
+      "clear": "Clear"
+    }
+  }
+}
